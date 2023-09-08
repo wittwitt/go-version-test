@@ -1,4 +1,4 @@
-module github.com/wittwitt/go-version-test
+module github.com/wittwitt/go-version-test/v2
 
 go 1.20
 
