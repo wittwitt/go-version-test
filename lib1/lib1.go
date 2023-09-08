@@ -1,7 +1,10 @@
 package lib1
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func Say() {
-	fmt.Println("gov lib1 say: hi: commit 0.0.2")
+	fmt.Println("gov lib1 say: hi: commit 0.0.3 with cli")
+
 }
