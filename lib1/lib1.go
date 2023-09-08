@@ -5,6 +5,6 @@ import (
 )
 
 func Say() {
-	fmt.Println("gov lib1 say: hi: commit 0.0.3 with cli")
+	fmt.Println("gov lib1 say: hi: commit 0.0.4")
 
 }
