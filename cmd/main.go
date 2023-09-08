@@ -4,6 +4,7 @@ import (
 	"log"
 	"os"
 
+	"github.com/BurntSushi/toml"
 	"github.com/urfave/cli/v2"
 )
 
@@ -37,6 +38,8 @@ func subCmd() *cli.Command {
 	return &cli.Command{
 		Name: "sub",
 		Action: func(ctx *cli.Context) error {
+			s := ""
+			toml.Decode("", &s)
 			return nil
 		},
 	}
