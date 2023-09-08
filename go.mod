@@ -1,6 +1,6 @@
 module github.com/wittwitt/go-version-test
 
-go 1.20
+go 1.19
 
 require (
 	github.com/BurntSushi/toml v1.3.2
