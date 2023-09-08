@@ -7,7 +7,7 @@ import (
 )
 
 func Say() {
-	fmt.Println("gov lib1 say: hi: commit 0.0.4")
+	fmt.Println("gov lib1 say: hi: commit 0.0.6")
 
 	err := xerrors.New("x")
 	fmt.Println("add xerr", err)
