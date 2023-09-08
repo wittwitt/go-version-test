@@ -1,4 +1,4 @@
-module github.com/wittwitt/go-version-test
+module gvtest
 
 go 1.19
 
